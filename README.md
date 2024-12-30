@@ -7,3 +7,8 @@ Install Jest for testing (or any testing framework you prefer). Run the followin
 npm init -y
 npm install --save-dev jest
 ```
+
+Run the test:
+```
+npm test
+````
