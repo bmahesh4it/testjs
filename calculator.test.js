@@ -7,3 +7,7 @@ test('Empty string returns 0', () => {
 test('Single number returns the number itself', () => {
   expect(add('1')).toBe(1);
 });
+
+test('Multiple numbers, comma-separated', () => {
+  expect(add('1,5')).toBe(6);
+});
