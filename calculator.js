@@ -20,6 +20,7 @@ function add(numbers) {
   }
 
   return numList.reduce((sum, num) => sum + parseInt(num, 10), 0);
+  
 }
 
 module.exports = { add };
